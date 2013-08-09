@@ -11,39 +11,34 @@
 @implementation CTAppDelegate
 
 @synthesize window;
-@synthesize spinner;
-@synthesize textView;
-@synthesize label;
 
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
     return YES;
 }
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
-    [spinner startAnimation:self];
+    [_spinner startAnimation:self];
     [self performSelector:@selector(performSystemCheck)];
 }
 
 - (IBAction)refresh:(id)sender {
-    [textView setString:@""];
-    [label setStringValue:@"Performing compatibility check..."];
+    [_textView setString:@""];
+    [_label setStringValue:@"Performing compatibility check..."];
     [self performSelector:@selector(performSystemCheck)];
 }
 
 - (void)performSystemCheck {
-    NSTextStorage *storage = [textView textStorage];
+    NSTextStorage *storage = [_textView textStorage];
     [storage beginEditing];
     
     size_t len = 0;
     sysctlbyname("hw.model", NULL, &len, NULL, 0);
     
-    if (len)
-    {
+    if (len) {
         char *model = malloc(len*sizeof(char));
         sysctlbyname("hw.model", model, &len, NULL, 0);
-        NSString *model_ns = [NSString stringWithUTF8String:model];
+        NSString *model_ns = @(model);
         free(model);
         
         NSAttributedString *string = [[NSAttributedString alloc]
@@ -70,8 +65,8 @@
     }
     
     [storage endEditing];
-    [spinner stopAnimation:self];
-    [label setStringValue:@""];
+    [_spinner stopAnimation:self];
+    [_label setStringValue:@""];
 }
 
 /* Not currently working. Displays graphics card. I am investigating an approach to get the wireless controller. */
@@ -187,7 +182,7 @@
      * Scan the system report we just recieved for troublesome hardware components.
      */
     BOOL issue = NO;
-    if ([[textView string] rangeOfString:@"Graphics: GeForce"].location != NSNotFound) {
+    if ([[_textView string] rangeOfString:@"Graphics: GeForce"].location != NSNotFound) {
         NSAttributedString *string = [[NSAttributedString alloc] initWithString:@"WARNING: Possible issue with video card and/or proprietary drivers. "];
         [storage appendAttributedString:string];
         

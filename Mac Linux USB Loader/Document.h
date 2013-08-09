@@ -13,7 +13,10 @@
 static void copyStatusCallback (FSFileOperationRef fileOp, const FSRef *currentItem, FSFileOperationStage stage, OSStatus error,
                                 CFDictionaryRef statusDictionary, void *info);
 
-@interface Document : NSDocument
+@interface Document : NSDocument {
+    NSString *bootLoaderName;
+    BOOL automaticallyBless;
+}
 @property (strong) IBOutlet NSWindow *window;
 @property (strong) IBOutlet NSPanel *prefsWindow;
 @property (strong) IBOutlet NSButton *makeUSBButton;

@@ -10,6 +10,8 @@
 
 @interface RecentDocumentsTableViewDataSource : NSObject <NSTableViewDataSource>
 
+@property const NSArray *array;
+
 - (void)setArray:(const NSArray *)myArray;
 
 @end

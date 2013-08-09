@@ -7,26 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24068D33177660F50065BADF /* SBFirmwareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24068D31177660F50065BADF /* SBFirmwareViewController.m */; };
+		24068D3A177662110065BADF /* RHAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24068D36177662110065BADF /* RHAboutViewController.m */; };
+		24068D3B177662110065BADF /* RHAccountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24068D37177662110065BADF /* RHAccountsViewController.m */; };
+		24068D3C177662110065BADF /* RHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24068D38177662110065BADF /* RHAppDelegate.m */; };
+		24068D3D177662110065BADF /* RHNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24068D39177662110065BADF /* RHNotificationViewController.m */; };
+		24068E3E177663B40065BADF /* DistributionDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 24068E3B177663B30065BADF /* DistributionDownloader.m */; };
+		24068E3F177663B40065BADF /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 24068E3C177663B30065BADF /* Document.m */; };
+		24068E40177663B40065BADF /* USBDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 24068E3D177663B40065BADF /* USBDevice.m */; };
+		24068E41177666820065BADF /* SBFirmwareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24068E39177662650065BADF /* SBFirmwareViewController.xib */; };
+		240C7B5C175AE63F00AEAFC9 /* Boot.icns in Resources */ = {isa = PBXBuildFile; fileRef = 240C7B5B175AE63F00AEAFC9 /* Boot.icns */; };
+		240C7B5E175AEDBA00AEAFC9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240C7B5D175AEDBA00AEAFC9 /* Security.framework */; };
 		2412DE0D171613C3002EA90F /* RecentDocumentsTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2412DE0C171613C3002EA90F /* RecentDocumentsTableViewDataSource.m */; };
+		241EC8A417A5F4880084ED83 /* defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 241EC8A317A5F4880084ED83 /* defaults.plist */; };
+		242B1EE31769074C00B83171 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 242B1EE21769074C00B83171 /* README */; };
+		2434C19B176F9AF6009C737D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24BDE430172D920B00E964A0 /* IOKit.framework */; };
 		24434A1A1677CE2100DAC959 /* RHPreferences.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24434A191677CE2100DAC959 /* RHPreferences.framework */; };
 		24434A391677D52800DAC959 /* AboutPreferences.png in Resources */ = {isa = PBXBuildFile; fileRef = 24434A211677D52800DAC959 /* AboutPreferences.png */; };
 		24434A3A1677D52800DAC959 /* AccountsPreferences.png in Resources */ = {isa = PBXBuildFile; fileRef = 24434A221677D52800DAC959 /* AccountsPreferences.png */; };
 		244C050416DD840E0083A0C9 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 244C050316DD840E0083A0C9 /* dsa_pub.pem */; };
 		244C050816DD8E460083A0C9 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244C050716DD8E460083A0C9 /* Sparkle.framework */; };
-		244E560916755CA300F80E78 /* RHPreferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244E560816755CA300F80E78 /* RHPreferences.framework */; };
-		246ABBE016A4BD560054A649 /* DistributionDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 246ABBE216A4BD560054A649 /* DistributionDownloader.m */; };
 		24728A6816BDA62C00920062 /* Notifications.icns in Resources */ = {isa = PBXBuildFile; fileRef = 24728A6716BDA62B00920062 /* Notifications.icns */; };
 		247686021682777A00A8C4AD /* bootIA32.efi in Resources */ = {isa = PBXBuildFile; fileRef = 247686001682777A00A8C4AD /* bootIA32.efi */; };
 		247686031682777A00A8C4AD /* bootX64.efi in Resources */ = {isa = PBXBuildFile; fileRef = 247686011682777A00A8C4AD /* bootX64.efi */; };
 		2479538D16ED01030085057B /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2479538F16ED01030085057B /* Document.xib */; };
 		248317CE16BF146C00313D33 /* Eraser.icns in Resources */ = {isa = PBXBuildFile; fileRef = 248317CD16BF146C00313D33 /* Eraser.icns */; };
-		248ECB8B16AB3168004B8A7E /* RHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 248ECB8D16AB3168004B8A7E /* RHAppDelegate.m */; };
-		249E04F71693916400562F64 /* USBDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 249E04F91693916400562F64 /* USBDevice.m */; };
-		249E04FB1693916900562F64 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 249E04FD1693916900562F64 /* Document.m */; };
+		2493D1BD176A864F00687E0A /* RHPreferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24434A191677CE2100DAC959 /* RHPreferences.framework */; };
+		249F1990175FDC280074F88A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CA6BED1656F7A700061D2F /* Cocoa.framework */; };
+		249F19A7175FDC760074F88A /* Icon2.icns in Resources */ = {isa = PBXBuildFile; fileRef = 249F19A6175FDC760074F88A /* Icon2.icns */; };
+		249F19A8175FDCEF0074F88A /* CTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2419A0CE17209608008E0137 /* CTAppDelegate.m */; };
+		249F19B0175FDDDC0074F88A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2419A0C717209608008E0137 /* main.m */; };
+		249F19B1175FDE170074F88A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 249F19B3175FDE170074F88A /* MainMenu.xib */; };
+		249F19B4175FDE220074F88A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 249F19B6175FDE220074F88A /* InfoPlist.strings */; };
 		24A07E1C16E7FA4D002246D2 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 244C050716DD8E460083A0C9 /* Sparkle.framework */; };
-		24AD166E16A0E85D0046C51A /* RHNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AD167016A0E85D0046C51A /* RHNotificationViewController.m */; };
-		24AD167116A0E8610046C51A /* RHAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AD167316A0E8610046C51A /* RHAboutViewController.m */; };
-		24AD167416A0E8650046C51A /* RHAccountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AD167616A0E8650046C51A /* RHAccountsViewController.m */; };
 		24AD167716A0F2C80046C51A /* RHNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AD167916A0F2C80046C51A /* RHNotificationViewController.xib */; };
 		24AD167A16A0F2CE0046C51A /* RHAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AD167C16A0F2CE0046C51A /* RHAboutViewController.xib */; };
 		24AD167D16A0F2D20046C51A /* RHAccountsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AD167F16A0F2D20046C51A /* RHAccountsViewController.xib */; };
@@ -34,21 +47,12 @@
 		24CA6BF81656F7A700061D2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24CA6BF61656F7A700061D2F /* InfoPlist.strings */; };
 		24CA6BFA1656F7A700061D2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CA6BF91656F7A700061D2F /* main.m */; };
 		24CA6C071656F7A700061D2F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24CA6C051656F7A700061D2F /* MainMenu.xib */; };
-		24CA6C14165701A900061D2F /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 24CA6C13165701A900061D2F /* Icon.icns */; };
 		24DB8AB91659AB0700F7C947 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 24DB8AB81659AB0700F7C947 /* README */; };
+		24EBEE37176676F5002A5452 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 24EBEE36176676F5002A5452 /* Icon.icns */; };
 		24F62E7216795AD50016B65A /* bootup.icns in Resources */ = {isa = PBXBuildFile; fileRef = 24F62E7116795AD50016B65A /* bootup.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2419A0EE17209672008E0137 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = Tools;
-			dstSubfolderSpec = 7;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		244E560316755B4A00F80E78 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
@@ -63,19 +67,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		24068D31177660F50065BADF /* SBFirmwareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBFirmwareViewController.m; sourceTree = "<group>"; };
+		24068D351776614F0065BADF /* SBFirmwareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBFirmwareViewController.h; sourceTree = "<group>"; };
+		24068D36177662110065BADF /* RHAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHAboutViewController.m; sourceTree = SOURCE_ROOT; };
+		24068D37177662110065BADF /* RHAccountsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHAccountsViewController.m; sourceTree = SOURCE_ROOT; };
+		24068D38177662110065BADF /* RHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		24068D39177662110065BADF /* RHNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHNotificationViewController.m; sourceTree = SOURCE_ROOT; };
+		24068E38177662650065BADF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SBFirmwareViewController.xib; sourceTree = "<group>"; };
+		24068E3A177662FC0065BADF /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/SBFirmwareViewController.xib; sourceTree = "<group>"; };
+		24068E3B177663B30065BADF /* DistributionDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistributionDownloader.m; sourceTree = "<group>"; };
+		24068E3C177663B30065BADF /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		24068E3D177663B40065BADF /* USBDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USBDevice.m; sourceTree = "<group>"; };
+		240C7B5B175AE63F00AEAFC9 /* Boot.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Boot.icns; path = Resources/Boot.icns; sourceTree = "<group>"; };
+		240C7B5D175AEDBA00AEAFC9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		2412DE0B171613C3002EA90F /* RecentDocumentsTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentDocumentsTableViewDataSource.h; sourceTree = "<group>"; };
 		2412DE0C171613C3002EA90F /* RecentDocumentsTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentDocumentsTableViewDataSource.m; sourceTree = "<group>"; };
 		2419A0C317209608008E0137 /* Compatibility Tester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Compatibility Tester-Info.plist"; sourceTree = "<group>"; };
-		2419A0C517209608008E0137 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2419A0C717209608008E0137 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2419A0C917209608008E0137 /* Compatibility Tester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Compatibility Tester-Prefix.pch"; sourceTree = "<group>"; };
-		2419A0CB17209608008E0137 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2419A0CD17209608008E0137 /* CTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTAppDelegate.h; sourceTree = "<group>"; };
 		2419A0CE17209608008E0137 /* CTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAppDelegate.m; sourceTree = "<group>"; };
-		2419A0D117209608008E0137 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2419A0D917209608008E0137 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		2419A0ED17209636008E0137 /* Compatibility Tester.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Compatibility Tester.entitlements"; sourceTree = "<group>"; };
+		241EC8A317A5F4880084ED83 /* defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = defaults.plist; path = ../Resources/defaults.plist; sourceTree = "<group>"; };
 		242262D616ED046200804B9D /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/Document.xib; sourceTree = "<group>"; };
+		242B1EE21769074C00B83171 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		24434A191677CE2100DAC959 /* RHPreferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RHPreferences.framework; sourceTree = "<group>"; };
 		24434A211677D52800DAC959 /* AboutPreferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AboutPreferences.png; sourceTree = "<group>"; };
 		24434A221677D52800DAC959 /* AccountsPreferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AccountsPreferences.png; sourceTree = "<group>"; };
@@ -83,9 +99,6 @@
 		24434A2E1677D52800DAC959 /* RHAccountsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAccountsViewController.h; sourceTree = "<group>"; };
 		244C050316DD840E0083A0C9 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		244C050716DD8E460083A0C9 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
-		244E560816755CA300F80E78 /* RHPreferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RHPreferences.framework; sourceTree = "<group>"; };
-		246ABBE116A4BD560054A649 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/DistributionDownloader.m; sourceTree = "<group>"; };
-		246F593D172F2BAC00442178 /* Icon2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon2.icns; path = Resources/Icon2.icns; sourceTree = "<group>"; };
 		24728A6716BDA62B00920062 /* Notifications.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Notifications.icns; path = Resources/Notifications.icns; sourceTree = "<group>"; };
 		247686001682777A00A8C4AD /* bootIA32.efi */ = {isa = PBXFileReference; lastKnownFileType = file; path = bootIA32.efi; sourceTree = "<group>"; };
 		247686011682777A00A8C4AD /* bootX64.efi */ = {isa = PBXFileReference; lastKnownFileType = file; path = bootX64.efi; sourceTree = "<group>"; };
@@ -96,15 +109,13 @@
 		2479538816ECFD4B0085057B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2479538E16ED01030085057B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Document.xib; sourceTree = "<group>"; };
 		248317CD16BF146C00313D33 /* Eraser.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Eraser.icns; path = Resources/Eraser.icns; sourceTree = "<group>"; };
-		248ECB8C16AB3168004B8A7E /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/RHAppDelegate.m; sourceTree = "<group>"; };
-		249E04F81693916400562F64 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/USBDevice.m; sourceTree = "<group>"; };
-		249E04FC1693916900562F64 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/Document.m; sourceTree = "<group>"; };
 		249EDD7017011D47006E7DAE /* RHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHAppDelegate.h; sourceTree = "<group>"; };
 		249EDD7217011F2E006E7DAE /* DistributionDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DistributionDownloader.h; sourceTree = "<group>"; };
+		249F198F175FDC280074F88A /* Compatibility Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compatibility Tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		249F19A6175FDC760074F88A /* Icon2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon2.icns; sourceTree = "<group>"; };
+		249F19B2175FDE170074F88A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		249F19B5175FDE220074F88A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24AD166216A0E1D90046C51A /* RHNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHNotificationViewController.h; sourceTree = "<group>"; };
-		24AD166F16A0E85D0046C51A /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/RHNotificationViewController.m; sourceTree = "<group>"; };
-		24AD167216A0E8610046C51A /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/RHAboutViewController.m; sourceTree = "<group>"; };
-		24AD167516A0E8650046C51A /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/RHAccountsViewController.m; sourceTree = "<group>"; };
 		24AD167816A0F2C80046C51A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RHNotificationViewController.xib; sourceTree = "<group>"; };
 		24AD167B16A0F2CE0046C51A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RHAboutViewController.xib; sourceTree = "<group>"; };
 		24AD167E16A0F2D20046C51A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RHAccountsViewController.xib; sourceTree = "<group>"; };
@@ -121,19 +132,29 @@
 		24CA6BFB1656F7A700061D2F /* Mac Linux USB Loader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mac Linux USB Loader-Prefix.pch"; sourceTree = "<group>"; };
 		24CA6BFF1656F7A700061D2F /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
 		24CA6C061656F7A700061D2F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		24CA6C13165701A900061D2F /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = Resources/Icon.icns; sourceTree = "<group>"; };
 		24CA6C15165701BD00061D2F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
-		24DB8AB81659AB0700F7C947 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../README; sourceTree = "<group>"; };
+		24DB8AB81659AB0700F7C947 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		24EBEE36176676F5002A5452 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		24F62E7116795AD50016B65A /* bootup.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = bootup.icns; path = "Mac Linux USB Loader/bootup.icns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		249F198C175FDC280074F88A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249F1990175FDC280074F88A /* Cocoa.framework in Frameworks */,
+				2434C19B176F9AF6009C737D /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		24CA6BE61656F7A700061D2F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240C7B5E175AEDBA00AEAFC9 /* Security.framework in Frameworks */,
 				24CA6BEE1656F7A700061D2F /* Cocoa.framework in Frameworks */,
-				244E560916755CA300F80E78 /* RHPreferences.framework in Frameworks */,
+				2493D1BD176A864F00687E0A /* RHPreferences.framework in Frameworks */,
 				244C050816DD8E460083A0C9 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +168,7 @@
 				2419A0ED17209636008E0137 /* Compatibility Tester.entitlements */,
 				2419A0CD17209608008E0137 /* CTAppDelegate.h */,
 				2419A0CE17209608008E0137 /* CTAppDelegate.m */,
-				2419A0D017209608008E0137 /* MainMenu.xib */,
+				249F19B3175FDE170074F88A /* MainMenu.xib */,
 				2419A0C217209608008E0137 /* Supporting Files */,
 			);
 			path = "Compatibility Tester";
@@ -156,11 +177,10 @@
 		2419A0C217209608008E0137 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				249F19B6175FDE220074F88A /* InfoPlist.strings */,
 				2419A0C317209608008E0137 /* Compatibility Tester-Info.plist */,
-				2419A0C417209608008E0137 /* InfoPlist.strings */,
 				2419A0C717209608008E0137 /* main.m */,
 				2419A0C917209608008E0137 /* Compatibility Tester-Prefix.pch */,
-				2419A0CA17209608008E0137 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -168,25 +188,30 @@
 		24434A201677D50800DAC959 /* Preferences View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				24068D351776614F0065BADF /* SBFirmwareViewController.h */,
+				24068D31177660F50065BADF /* SBFirmwareViewController.m */,
+				24068E39177662650065BADF /* SBFirmwareViewController.xib */,
 				24AD166216A0E1D90046C51A /* RHNotificationViewController.h */,
-				24AD167016A0E85D0046C51A /* RHNotificationViewController.m */,
+				24068D39177662110065BADF /* RHNotificationViewController.m */,
 				24AD167916A0F2C80046C51A /* RHNotificationViewController.xib */,
 				24434A2B1677D52800DAC959 /* RHAboutViewController.h */,
-				24AD167316A0E8610046C51A /* RHAboutViewController.m */,
+				24068D36177662110065BADF /* RHAboutViewController.m */,
 				24AD167C16A0F2CE0046C51A /* RHAboutViewController.xib */,
 				24434A2E1677D52800DAC959 /* RHAccountsViewController.h */,
-				24AD167616A0E8650046C51A /* RHAccountsViewController.m */,
+				24068D37177662110065BADF /* RHAccountsViewController.m */,
 				24AD167F16A0F2D20046C51A /* RHAccountsViewController.xib */,
 			);
 			name = "Preferences View Controllers";
+			path = ..;
 			sourceTree = "<group>";
 			usesTabs = 0;
 		};
 		24728A6616BD9C1B00920062 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
-				24CA6C13165701A900061D2F /* Icon.icns */,
-				246F593D172F2BAC00442178 /* Icon2.icns */,
+				24EBEE36176676F5002A5452 /* Icon.icns */,
+				249F19A6175FDC760074F88A /* Icon2.icns */,
+				240C7B5B175AE63F00AEAFC9 /* Boot.icns */,
 				24F62E7116795AD50016B65A /* bootup.icns */,
 				24CA6C15165701BD00061D2F /* Icon.png */,
 				248317CD16BF146C00313D33 /* Eraser.icns */,
@@ -200,20 +225,21 @@
 		247685FF1682777A00A8C4AD /* EFI Loader */ = {
 			isa = PBXGroup;
 			children = (
+				242B1EE21769074C00B83171 /* README */,
 				247686001682777A00A8C4AD /* bootIA32.efi */,
 				247686011682777A00A8C4AD /* bootX64.efi */,
 			);
-			path = "EFI Loader";
+			name = "EFI Loader";
+			path = "../EFI Loader";
 			sourceTree = "<group>";
 		};
 		24CA6BDE1656F7A700061D2F = {
 			isa = PBXGroup;
 			children = (
+				24DB8AB81659AB0700F7C947 /* README */,
 				24CA6BF31656F7A700061D2F /* Mac Linux USB Loader */,
 				2419A0C117209608008E0137 /* Compatibility Tester */,
 				24728A6616BD9C1B00920062 /* Icons */,
-				247685FF1682777A00A8C4AD /* EFI Loader */,
-				24434A201677D50800DAC959 /* Preferences View Controllers */,
 				24CA6BEC1656F7A700061D2F /* Frameworks */,
 				24CA6BEA1656F7A700061D2F /* Products */,
 			);
@@ -223,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				24CA6BE91656F7A700061D2F /* Mac Linux USB Loader.app */,
+				249F198F175FDC280074F88A /* Compatibility Tester.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,10 +257,10 @@
 		24CA6BEC1656F7A700061D2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				240C7B5D175AEDBA00AEAFC9 /* Security.framework */,
 				24BDE430172D920B00E964A0 /* IOKit.framework */,
 				244C050716DD8E460083A0C9 /* Sparkle.framework */,
 				24434A191677CE2100DAC959 /* RHPreferences.framework */,
-				244E560816755CA300F80E78 /* RHPreferences.framework */,
 				24CA6BED1656F7A700061D2F /* Cocoa.framework */,
 				2419A0D917209608008E0137 /* SenTestingKit.framework */,
 				24CA6BEF1656F7A700061D2F /* Other Frameworks */,
@@ -254,19 +281,20 @@
 		24CA6BF31656F7A700061D2F /* Mac Linux USB Loader */ = {
 			isa = PBXGroup;
 			children = (
-				24DB8AB81659AB0700F7C947 /* README */,
 				24CA6BFF1656F7A700061D2F /* Document.h */,
-				249E04FD1693916900562F64 /* Document.m */,
+				24068E3C177663B30065BADF /* Document.m */,
 				24C9FCCC1664204B0080E6E4 /* USBDevice.h */,
-				249E04F91693916400562F64 /* USBDevice.m */,
+				24068E3D177663B40065BADF /* USBDevice.m */,
 				249EDD7017011D47006E7DAE /* RHAppDelegate.h */,
-				248ECB8D16AB3168004B8A7E /* RHAppDelegate.m */,
+				24068D38177662110065BADF /* RHAppDelegate.m */,
 				249EDD7217011F2E006E7DAE /* DistributionDownloader.h */,
-				246ABBE216A4BD560054A649 /* DistributionDownloader.m */,
+				24068E3B177663B30065BADF /* DistributionDownloader.m */,
 				2412DE0B171613C3002EA90F /* RecentDocumentsTableViewDataSource.h */,
 				2412DE0C171613C3002EA90F /* RecentDocumentsTableViewDataSource.m */,
 				24CA6C051656F7A700061D2F /* MainMenu.xib */,
 				2479538F16ED01030085057B /* Document.xib */,
+				247685FF1682777A00A8C4AD /* EFI Loader */,
+				24434A201677D50800DAC959 /* Preferences View Controllers */,
 				24CA6BF41656F7A700061D2F /* Supporting Files */,
 			);
 			path = "Mac Linux USB Loader";
@@ -275,6 +303,7 @@
 		24CA6BF41656F7A700061D2F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				241EC8A317A5F4880084ED83 /* defaults.plist */,
 				244C050316DD840E0083A0C9 /* dsa_pub.pem */,
 				24CA6BF51656F7A700061D2F /* Mac Linux USB Loader-Info.plist */,
 				24CA6BF61656F7A700061D2F /* InfoPlist.strings */,
@@ -287,6 +316,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		249F198E175FDC280074F88A /* Compatibility Tester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 249F19A3175FDC280074F88A /* Build configuration list for PBXNativeTarget "Compatibility Tester" */;
+			buildPhases = (
+				249F198B175FDC280074F88A /* Sources */,
+				249F198C175FDC280074F88A /* Frameworks */,
+				249F198D175FDC280074F88A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Compatibility Tester";
+			productName = "Compatibility Tester";
+			productReference = 249F198F175FDC280074F88A /* Compatibility Tester.app */;
+			productType = "com.apple.product-type.application";
+		};
 		24CA6BE81656F7A700061D2F /* Mac Linux USB Loader */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24CA6C0A1656F7A700061D2F /* Build configuration list for PBXNativeTarget "Mac Linux USB Loader" */;
@@ -295,7 +341,6 @@
 				24CA6BE61656F7A700061D2F /* Frameworks */,
 				24CA6BE71656F7A700061D2F /* Resources */,
 				244E560316755B4A00F80E78 /* CopyFiles */,
-				2419A0EE17209672008E0137 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -330,86 +375,88 @@
 			projectRoot = "";
 			targets = (
 				24CA6BE81656F7A700061D2F /* Mac Linux USB Loader */,
+				249F198E175FDC280074F88A /* Compatibility Tester */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		249F198D175FDC280074F88A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249F19A7175FDC760074F88A /* Icon2.icns in Resources */,
+				249F19B1175FDE170074F88A /* MainMenu.xib in Resources */,
+				249F19B4175FDE220074F88A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		24CA6BE71656F7A700061D2F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				24CA6BF81656F7A700061D2F /* InfoPlist.strings in Resources */,
 				24CA6C071656F7A700061D2F /* MainMenu.xib in Resources */,
-				24CA6C14165701A900061D2F /* Icon.icns in Resources */,
+				2479538D16ED01030085057B /* Document.xib in Resources */,
 				24DB8AB91659AB0700F7C947 /* README in Resources */,
 				24434A391677D52800DAC959 /* AboutPreferences.png in Resources */,
 				24434A3A1677D52800DAC959 /* AccountsPreferences.png in Resources */,
-				24AD167A16A0F2CE0046C51A /* RHAboutViewController.xib in Resources */,
-				24AD167D16A0F2D20046C51A /* RHAccountsViewController.xib in Resources */,
 				24F62E7216795AD50016B65A /* bootup.icns in Resources */,
 				247686021682777A00A8C4AD /* bootIA32.efi in Resources */,
 				247686031682777A00A8C4AD /* bootX64.efi in Resources */,
+				24068E41177666820065BADF /* SBFirmwareViewController.xib in Resources */,
 				24AD167716A0F2C80046C51A /* RHNotificationViewController.xib in Resources */,
+				24AD167A16A0F2CE0046C51A /* RHAboutViewController.xib in Resources */,
 				24728A6816BDA62C00920062 /* Notifications.icns in Resources */,
 				248317CE16BF146C00313D33 /* Eraser.icns in Resources */,
 				244C050416DD840E0083A0C9 /* dsa_pub.pem in Resources */,
-				2479538D16ED01030085057B /* Document.xib in Resources */,
+				24AD167D16A0F2D20046C51A /* RHAccountsViewController.xib in Resources */,
+				240C7B5C175AE63F00AEAFC9 /* Boot.icns in Resources */,
+				24EBEE37176676F5002A5452 /* Icon.icns in Resources */,
+				242B1EE31769074C00B83171 /* README in Resources */,
+				241EC8A417A5F4880084ED83 /* defaults.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		249F198B175FDC280074F88A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249F19A8175FDCEF0074F88A /* CTAppDelegate.m in Sources */,
+				249F19B0175FDDDC0074F88A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		24CA6BE51656F7A700061D2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				24CA6BFA1656F7A700061D2F /* main.m in Sources */,
-				249E04FB1693916900562F64 /* Document.m in Sources */,
-				249E04F71693916400562F64 /* USBDevice.m in Sources */,
-				24AD167116A0E8610046C51A /* RHAboutViewController.m in Sources */,
-				24AD167416A0E8650046C51A /* RHAccountsViewController.m in Sources */,
-				248ECB8B16AB3168004B8A7E /* RHAppDelegate.m in Sources */,
-				24AD166E16A0E85D0046C51A /* RHNotificationViewController.m in Sources */,
-				246ABBE016A4BD560054A649 /* DistributionDownloader.m in Sources */,
+				24068D3C177662110065BADF /* RHAppDelegate.m in Sources */,
 				2412DE0D171613C3002EA90F /* RecentDocumentsTableViewDataSource.m in Sources */,
+				24068D33177660F50065BADF /* SBFirmwareViewController.m in Sources */,
+				24068D3A177662110065BADF /* RHAboutViewController.m in Sources */,
+				24068D3B177662110065BADF /* RHAccountsViewController.m in Sources */,
+				24068D3D177662110065BADF /* RHNotificationViewController.m in Sources */,
+				24068E3E177663B40065BADF /* DistributionDownloader.m in Sources */,
+				24068E3F177663B40065BADF /* Document.m in Sources */,
+				24068E40177663B40065BADF /* USBDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2419A0C417209608008E0137 /* InfoPlist.strings */ = {
+		24068E39177662650065BADF /* SBFirmwareViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2419A0C517209608008E0137 /* en */,
+				24068E38177662650065BADF /* en */,
+				24068E3A177662FC0065BADF /* es */,
 			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2419A0CA17209608008E0137 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2419A0CB17209608008E0137 /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		2419A0D017209608008E0137 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2419A0D117209608008E0137 /* en */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		246ABBE216A4BD560054A649 /* DistributionDownloader.m */ = {
-			isa = PBXVariantGroup;
-			children = (
-				246ABBE116A4BD560054A649 /* en */,
-			);
-			name = DistributionDownloader.m;
+			name = SBFirmwareViewController.xib;
 			sourceTree = "<group>";
 		};
 		2479538F16ED01030085057B /* Document.xib */ = {
@@ -421,53 +468,20 @@
 			name = Document.xib;
 			sourceTree = "<group>";
 		};
-		248ECB8D16AB3168004B8A7E /* RHAppDelegate.m */ = {
+		249F19B3175FDE170074F88A /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				248ECB8C16AB3168004B8A7E /* en */,
+				249F19B2175FDE170074F88A /* en */,
 			);
-			name = RHAppDelegate.m;
-			path = ..;
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		249E04F91693916400562F64 /* USBDevice.m */ = {
+		249F19B6175FDE220074F88A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				249E04F81693916400562F64 /* en */,
+				249F19B5175FDE220074F88A /* en */,
 			);
-			name = USBDevice.m;
-			sourceTree = "<group>";
-		};
-		249E04FD1693916900562F64 /* Document.m */ = {
-			isa = PBXVariantGroup;
-			children = (
-				249E04FC1693916900562F64 /* en */,
-			);
-			name = Document.m;
-			sourceTree = "<group>";
-		};
-		24AD167016A0E85D0046C51A /* RHNotificationViewController.m */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24AD166F16A0E85D0046C51A /* en */,
-			);
-			name = RHNotificationViewController.m;
-			sourceTree = "<group>";
-		};
-		24AD167316A0E8610046C51A /* RHAboutViewController.m */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24AD167216A0E8610046C51A /* en */,
-			);
-			name = RHAboutViewController.m;
-			sourceTree = "<group>";
-		};
-		24AD167616A0E8650046C51A /* RHAccountsViewController.m */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24AD167516A0E8650046C51A /* en */,
-			);
-			name = RHAccountsViewController.m;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		24AD167916A0F2C80046C51A /* RHNotificationViewController.xib */ = {
@@ -518,6 +532,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		249F19A4175FDC280074F88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CODE_SIGN_ENTITLEMENTS = "Compatibility Tester/Compatibility Tester.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Compatibility Tester/Compatibility Tester-Prefix.pch";
+				INFOPLIST_FILE = "Compatibility Tester/Compatibility Tester-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		249F19A5175FDC280074F88A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CODE_SIGN_ENTITLEMENTS = "Compatibility Tester/Compatibility Tester.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Compatibility Tester/Compatibility Tester-Prefix.pch";
+				INFOPLIST_FILE = "Compatibility Tester/Compatibility Tester-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		24CA6C081656F7A700061D2F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -574,19 +624,18 @@
 		24CA6C0B1656F7A700061D2F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Nancy Bowring";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../../Downloads/Sparkle 1/With Garbage Collection\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mac Linux USB Loader/Mac Linux USB Loader-Prefix.pch";
 				INFOPLIST_FILE = "Mac Linux USB Loader/Mac Linux USB Loader-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4EC85424-BBF6-4D59-B580-B1C349102F39";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -594,19 +643,18 @@
 		24CA6C0C1656F7A700061D2F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Nancy Bowring";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../../Downloads/Sparkle 1/With Garbage Collection\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mac Linux USB Loader/Mac Linux USB Loader-Prefix.pch";
 				INFOPLIST_FILE = "Mac Linux USB Loader/Mac Linux USB Loader-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4EC85424-BBF6-4D59-B580-B1C349102F39";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -614,6 +662,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		249F19A3175FDC280074F88A /* Build configuration list for PBXNativeTarget "Compatibility Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249F19A4175FDC280074F88A /* Debug */,
+				249F19A5175FDC280074F88A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		24CA6BE31656F7A700061D2F /* Build configuration list for PBXProject "Mac Linux USB Loader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

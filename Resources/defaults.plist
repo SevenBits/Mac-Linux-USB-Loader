@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SUScheduledCheckInterval</key>
+	<integer>3600</integer>
+	<key>ShowNotifications</key>
+	<true/>
+	<key>automaticallyBless</key>
+	<false/>
+	<key>selectedFirmwareType</key>
+	<string>Legacy Loader</string>
+</dict>
+</plist>

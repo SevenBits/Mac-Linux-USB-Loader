@@ -36,7 +36,7 @@ long long bytesReceived = 0;
     // Inform us that the download failed.
     NSLog(@"Download failed! Error - %@ %@",
           [error localizedDescription],
-          [[error userInfo] objectForKey:NSURLErrorFailingURLStringErrorKey]);
+          [error userInfo][NSURLErrorFailingURLStringErrorKey]);
     
     NSAlert *alert = [[NSAlert alloc] init];
     [alert addButtonWithTitle:@"Okay"];
@@ -134,7 +134,7 @@ long long bytesReceived = 0;
     // LOTS of floating point casts and stuff here. This needs to be made more efficent.
     if (expectedLength != NSURLResponseUnknownLength) {
         // Calculate at what percent complete we are.
-        float percentComplete = (bytesReceived/(float)expectedLength)*100.0;
+        float percentComplete = (bytesReceived/(float)expectedLength) * 100.0;
         [progress setDoubleValue:(double)percentComplete];
         
         // Add the progress percent to the dock as an overlay.

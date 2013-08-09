@@ -1,21 +1,21 @@
-                                                                 #####
-                                                                #######
-                   #                                            ##O#O##
-  ######          ###                                           #VVVVV#
-    ##             #                                          ##  VVV  ##
-    ##         ###    ### ####   ###    ###  ##### #####     #          ##
-    ##        #  ##    ###    ##  ##     ##    ##   ##      #            ##
-    ##       #   ##    ##     ##  ##     ##      ###        #            ###
-    ##          ###    ##     ##  ##     ##      ###       QQ#           ##Q
-    ##       # ###     ##     ##  ##     ##     ## ##    QQQQQQ#       #QQQQQQ
-    ##      ## ### #   ##     ##  ###   ###    ##   ##   QQQQQQQ#     #QQQQQQQ
-  ############  ###   ####   ####   #### ### ##### #####   QQQQQ#######QQQQQ
+      #####
+     #######
+     ##O#O##
+     #VVVVV#
+    ## VVV  ##
+   #          ##
+  #            ##
+  #            ###
+ QQ#           ##QQQQQ
+QQQQQQ#       #QQQQQQQ
+QQQQQQQ#     #QQQQQQQ
+  QQQQQ#######QQQQQ
 
-This is the Mac Linux USB Loader, a tool allowing you to take an ISO of a Linux distribution and make it boot using EFI. It requires a single USB drive formatted as FAT with at least 2 GB free recommended. The application is available in English and is partially translated into Spanish.
+This is the Mac Linux USB Loader, a tool allowing you to take an ISO of a Linux distribution and make it boot using EFI. It requires a single USB drive formatted as FAT with at least 2 GB free recommended. The application is available in English and is partially translated into Spanish. This project also contains the Compatibility Tester, a related but separate tool to test your Mac's Linux compatibility.
 
 The tool is necessary to make certain Linux distributions boot that do not have EFI booting support. Many distributions are adding this with the release of Windows 8, but it has not been finalized and is still nonstandard by most distros.
 
-I am currently in the process of transitioning from a proprietary EFI loader to GRUB 2. The proprietary EFI loader will likely be phased out very soon and replaced by my own EFI loader will the same functionality. Also, my I am currently writing an EFI boot loader called Enterprise that will check your system before loading the EFI boot loader.
+I am currently in the process of transitioning from a third-party EFI loader to GRUB 2. The third-party EFI loader will likely be phased out very soon and replaced by my own EFI loader will the same functionality. Also, my I am currently writing an EFI boot loader called Enterprise that will check your system before loading the EFI boot loader.
 
 If you wish to contribute to the code or fork the repository, please do so. Please note that all of the code in the _working_ branch is unstable, and should not be used on production machines. The _stable_ branch contains stable, tested code. The current version of Mac Linux USB Loader is 1.0. Version numbers will likely be higher in development branches.
 
@@ -34,3 +34,5 @@ Acknowledgements:
 
 - Used the eraser icon by Oliver Scholtz.
     http://www.iconfinder.com/icondetails/24217/128/clean_delete_eraser_icon
+- Used the boot icon from Aha-Soft
+    http://www.iconfinder.com/icondetails/128585/96/boot_icon

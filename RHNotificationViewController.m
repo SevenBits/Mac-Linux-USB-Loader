@@ -14,20 +14,16 @@
 
 @implementation RHNotificationViewController
 
-@synthesize notificationCenterButton;
-@synthesize displayNotificationsCheckbox;
-@synthesize panelView;
-
--(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
     self = [super initWithNibName:@"RHNotificationViewController" bundle:nibBundleOrNil];
-    if (self){
+    if (self) {
         NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
         [defaults synchronize];
         
         if ([defaults boolForKey:@"ShowNotifications"] == YES) {
-            [displayNotificationsCheckbox setState:NSOnState];
+            [_displayNotificationsCheckbox setState:NSOnState];
         } else {
-            [displayNotificationsCheckbox setState:NSOffState];
+            [_displayNotificationsCheckbox setState:NSOffState];
         }
     }
     return self;
@@ -36,7 +32,7 @@
 - (IBAction)showNotificationCenter:(NSButton*)sender {
     NSProcessInfo *pinfo = [NSProcessInfo processInfo];
     NSArray *myarr = [[pinfo operatingSystemVersionString] componentsSeparatedByString:@" "];
-    NSString *version = [myarr objectAtIndex:1];
+    NSString *version = myarr[1];
     
     // Ensure that we are running 10.8 before we display the preferences as we still support Lion, which does not have
     // notifications.
@@ -60,17 +56,17 @@
 
 #pragma mark - RHPreferencesViewControllerProtocol
 
--(NSString*)identifier{
+- (NSString*)identifier {
     return NSStringFromClass(self.class);
 }
--(NSImage*)toolbarItemImage{
+- (NSImage*)toolbarItemImage {
     return [NSImage imageNamed:@"Notifications"];
 }
--(NSString*)toolbarItemLabel{
+- (NSString*)toolbarItemLabel {
     return NSLocalizedString(@"Notifications", @"AboutToolbarItemLabel");
 }
 
--(NSView*)initialKeyView{
+- (NSView*)initialKeyView{
     return nil;
 }
 

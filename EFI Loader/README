@@ -1,0 +1,7 @@
+These images are compiled from the normal, GRUB 2 source tree. They are essentially compiled versions of GRUB with an embedded configuration file (grub.cfg). Under the stipulations of the GNU General Public License, version 3, the license under which GRUB 2 is governed, you are required to distribute the source code for any modifications that you make. These images, however, were not created by me, rather, they were obtained from the following web site:
+
+http://www.apfeltalk.de/forum/ubuntu-iso-image-t350144.html
+
+The images, as far as I can tell, do not use a modified copy of the GRUB 2 codebase and only contain an embedded configuration file that sets up the loopback and boots the kernel. The author never distributed the source code. I did, however, manage to extract the GRUB configuration file used to boot the ISO files from the provided images. I have put the contents onto PasteBin at this address: http://pastebin.com/qQxqF7dS .
+
+Because of this license violation, I am transitioning to my own EFI loader to replace these images. You can find all necessary information on my blog at http://sevenbits-tech-blog.blogspot.com and on the webpage for my EFI bootloader Enterprise at http://sevenbits.github.io/Enterprise/ .

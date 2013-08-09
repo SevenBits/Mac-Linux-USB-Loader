@@ -9,13 +9,22 @@
 #import <Cocoa/Cocoa.h>
 #import <RHPreferences/RHPreferences.h>
 
+#import "RHAboutViewController.h"
+#import "RHAccountsViewController.h"
+#import "RHNotificationViewController.h"
+#import "SBFirmwareViewController.h"
+
+#import "DistributionDownloader.h"
 #import "RecentDocumentsTableViewDataSource.h"
 
 @interface RHAppDelegate : NSObject <NSApplicationDelegate> {
-    __unsafe_unretained NSWindow *_window;
     RHPreferencesWindowController *_preferencesWindowController;
     IBOutlet NSPanel *sheet;
     IBOutlet NSPanel *eraseSheet;
+    IBOutlet NSPanel *bootSettingsSheet;
+    
+    NSString *bootLoaderName;
+    BOOL automaticallyBless;
 }
 
 @property (assign) IBOutlet NSWindow *window;
@@ -28,20 +37,30 @@
 @property (retain) IBOutlet NSProgressIndicator *distroDownloadProgressIndicator;
 @property (retain) IBOutlet NSComboBox *distroSelectorComboBox;
 @property (retain) IBOutlet NSPopUpButton *eraseUSBSelector;
+@property (retain) IBOutlet NSPopUpButton *bootUSBSelector;
 @property (retain) IBOutlet NSTableView *recentFileBrowser;
 @property (retain) IBOutlet RecentDocumentsTableViewDataSource *dataSource;
 
-- (BOOL)canQuit;
-- (BOOL)setCanQuit:(BOOL)ableToQuit;
+@property BOOL canQuit; // Can the user quit the application?
+
+- (void)blessDrive:(NSString *)path sender:(id)sender;
 - (void)respondToRecentFileDoubleClick;
 
 #pragma mark - IBActions
 - (IBAction)showPreferences:(id)sender;
+
 - (IBAction)showDownloadDistroSheet:(id)sender;
 - (IBAction)closeDownloadDistroSheet:(id)sender;
+
+- (IBAction)showModifyBootSettingsSheet:(id)sender;
+- (IBAction)closeModifyBootSettingsSheet:(id)sender;
+- (IBAction)blessUSB:(id)sender;
+- (IBAction)unbless:(id)sender;
+
 - (IBAction)openDownloadedDistro:(id)sender;
 - (IBAction)showEraseDistroSheet:(id)sender;
 - (IBAction)closeEraseDistroSheet:(id)sender;
+
 - (IBAction)detectUSBs:(id)sender;
 - (IBAction)downloadDistribution:(id)sender;
 - (IBAction)eraseSelectedDrive:(id)sender;

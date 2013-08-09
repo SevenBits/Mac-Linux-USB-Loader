@@ -10,19 +10,13 @@
 
 @implementation RecentDocumentsTableViewDataSource
 
-const NSArray *array;
-
 - (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView {
-    return [array count];
+    return [_array count];
 }
 
 - (id)tableView:(NSTableView *)tableView objectValueForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row {
     [tableColumn setEditable:NO];
-    return [[array objectAtIndex:row] lastPathComponent];
-}
-
-- (void)setArray:(const NSArray *)myArray {
-    array = myArray;
+    return [_array[row] lastPathComponent];
 }
 
 @end

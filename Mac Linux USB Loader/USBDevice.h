@@ -11,8 +11,10 @@
 
 @interface USBDevice : NSObject
 
+@property NSString *volumePath;
+@property NSWindow *window;
+
 - (void)alertDidEnd:(NSAlert *)alert returnCode:(int)returnCode contextInfo:(void *)contextInfo;
-- (void)setWindow:(NSWindow *) window;
 - (BOOL)prepareUSB:(NSString *)path;
 //- (BOOL)copyISO:(NSString *)path:(NSString *)isoFile:(NSProgressIndicator *)progressBar:(Document *)document;
 
